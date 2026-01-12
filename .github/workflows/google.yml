@@ -15,7 +15,6 @@ jobs:
           token_format: access_token
           access_token_scopes: https://www.googleapis.com/auth/webmasters.readonly
 
-      # example of calling search console api
       - run: |
           curl -H "Authorization: Bearer ${{ steps.auth.outputs.access_token }}" "https://searchconsole.googleapis.com/webmasters/v3/sites"
 

@@ -13,7 +13,7 @@ const md = remark().use(remarkGfm).use(remarkStringify).stringify({
     { type: "heading", depth: 3, children: [{ type: "text", value: "Last contributions" }] },
     {
       type: "table",
-      children: github.contributions.search.edges.map(edge => ({
+      children: github.contributions.edges.map(edge => ({
         type: "tableRow",
         children: [
           { type: "tableCell", children: [{ type: "text", value: edge?.node?.repository?.nameWithOwner }] },
@@ -42,11 +42,11 @@ const md = remark().use(remarkGfm).use(remarkStringify).stringify({
         {
           type: "tableRow",
           children: [
-            {type: "tableCell", children: [{type: "text", value: String(github.stats.user.repositoriesContributedTo.totalCount)}]},
-            {type: "tableCell", children: [{type: "text", value: String(github.stats.user.contributionsCollection.totalCommitContributions)}]},
-            {type: "tableCell", children: [{type: "text", value: String(github.stats.user.issues.totalCount)}]},
-            {type: "tableCell", children: [{type: "text", value: String(github.stats.user.followers.totalCount)}]},
-            {type: "tableCell", children: [{type: "text", value: String(github.stats.user.repositoriesContributedTo.totalCount)}]},
+            {type: "tableCell", children: [{type: "text", value: String(github.stats.repositoriesContributedTo.totalCount)}]},
+            {type: "tableCell", children: [{type: "text", value: String(github.stats.contributionsCollection.totalCommitContributions)}]},
+            {type: "tableCell", children: [{type: "text", value: String(github.stats.issues.totalCount)}]},
+            {type: "tableCell", children: [{type: "text", value: String(github.stats.followers.totalCount)}]},
+            {type: "tableCell", children: [{type: "text", value: String(github.stats.repositoriesContributedTo.totalCount)}]},
           ]
         }
       ]
@@ -54,7 +54,7 @@ const md = remark().use(remarkGfm).use(remarkStringify).stringify({
     { type: "paragraph", children: [{ type: "text", value: "According to github stats here are languages used in repositories under my account" }] },
     {
       type: "table",
-      children: Object.entries(github.languages.user.repositories.nodes.flatMap(node => node.languages.edges.map(edge => edge.node.name)).reduce((acc, x) => Object.assign(acc, {[x]: (acc[x] || 0) + 1}), {})).sort((a, b) => b[1] - a[1]).map(entry => [entry[0], parseFloat((entry[1]/github.languages.user.repositories.nodes.length*100).toFixed(2))]).splice(0, 10).map(([language, percent]) => ({
+      children: Object.entries(github.languages.repositories.nodes.flatMap(node => node.languages.edges.map(edge => edge.node.name)).reduce((acc, x) => Object.assign(acc, {[x]: (acc[x] || 0) + 1}), {})).sort((a, b) => b[1] - a[1]).map(entry => [entry[0], parseFloat((entry[1]/github.languages.repositories.nodes.length*100).toFixed(2))]).splice(0, 10).map(([language, percent]) => ({
         type: "tableRow",
         children: [
           { type: "tableCell", children: [{ type: "html", value: icon("languages", language) }] },
