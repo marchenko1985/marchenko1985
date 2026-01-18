@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 168,
-      "restrictedContributionsCount": 1639
+      "totalCommitContributions": 175,
+      "restrictedContributionsCount": 1640
     },
     "repositoriesContributedTo": {
       "totalCount": 7
@@ -111,7 +111,7 @@
       "totalCount": 89
     },
     "repositories": {
-      "totalCount": 217,
+      "totalCount": 218,
       "nodes": [
         {
           "stargazers": {
@@ -1264,6 +1264,17 @@
               {
                 "node": {
                   "name": "PHP"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "HTML"
                 }
               }
             ]
@@ -2523,37 +2534,6 @@
               {
                 "node": {
                   "name": "HTML"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Java"
-                }
-              },
-              {
-                "node": {
-                  "name": "CSS"
-                }
-              },
-              {
-                "node": {
-                  "name": "HTML"
-                }
-              },
-              {
-                "node": {
-                  "name": "Go"
-                }
-              },
-              {
-                "node": {
-                  "name": "JavaScript"
                 }
               }
             ]
