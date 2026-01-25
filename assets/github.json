@@ -96,10 +96,10 @@
   "stats": {
     "contributionsCollection": {
       "totalCommitContributions": 175,
-      "restrictedContributionsCount": 1640
+      "restrictedContributionsCount": 1612
     },
     "repositoriesContributedTo": {
-      "totalCount": 7
+      "totalCount": 6
     },
     "pullRequests": {
       "totalCount": 126
