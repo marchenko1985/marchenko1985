@@ -36,17 +36,17 @@ According to github stats here are languages used in repositories under my accou
 
 and here are languages I'm used to code with for last month according to \[wakatime report]\(https\://wakatime.com/@67b0932f-7fe8-4117-a47a-87e37d1b0d05)
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="24" height="24" alt="TypeScript" title="TypeScript" />         | 36.01% |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="24" height="24" alt="TypeScript" title="TypeScript" />         | 49.06% |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" width="24" height="24" alt="Markdown" title="Markdown" />                    | 19.79% |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="24" height="24" alt="HTML" title="HTML" />                  | 17.20% |
-| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Other" title="Other" />                                        | 9.96%  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="24" height="24" alt="JavaScript" title="JavaScript" /> | 7.91%  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" width="24" height="24" alt="JSON" title="JSON" />                         | 2.67%  |
-| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Text" title="Text" />                                          | 2.33%  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" width="24" height="24" alt="Bash" title="Bash" />                        | 0.85%  |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24" height="24" alt="C#" title="C#" />                        | 0.78%  |
-| <img src="https://cdn.worldvectorlogo.com/logos/swift-15.svg" width="24" height="24" alt="Swift" title="Swift" />                                             | 0.76%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" width="24" height="24" alt="Markdown" title="Markdown" />                    | 22.38% |
+| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Other" title="Other" />                                        | 12.54% |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="24" height="24" alt="JavaScript" title="JavaScript" /> | 4.70%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="24" height="24" alt="HTML" title="HTML" />                  | 3.76%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" width="24" height="24" alt="JSON" title="JSON" />                         | 2.63%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" width="24" height="24" alt="Bash" title="Bash" />                        | 1.36%  |
+| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Text" title="Text" />                                          | 0.87%  |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24" height="24" alt="C#" title="C#" />                        | 0.79%  |
+| <img src="https://cdn.worldvectorlogo.com/logos/swift-15.svg" width="24" height="24" alt="Swift" title="Swift" />                                             | 0.77%  |
 
 I'm coding in
 
