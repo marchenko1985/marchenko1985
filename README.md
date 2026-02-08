@@ -18,7 +18,7 @@
 
 | <img src="assets/icons/pullrequest.svg" width="24" height="24" alt="requests" title="requests" /> | <img src="assets/icons/commit.svg" width="24" height="24" alt="commits" title="commits" /> | <img src="assets/icons/issue.svg" width="24" height="24" alt="issues" title="issues" /> | <img src="assets/icons/star.svg" width="24" height="24" alt="stars" title="stars" /> | <img src="assets/icons/merge.svg" width="24" height="24" alt="contributions" title="contributions" /> |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
-| 6                                                                                                 | 175                                                                                        | 133                                                                                     | 89                                                                                   | 6                                                                                                     |
+| 5                                                                                                 | 175                                                                                        | 133                                                                                     | 91                                                                                   | 5                                                                                                     |
 
 According to github stats here are languages used in repositories under my account
 
@@ -36,23 +36,23 @@ According to github stats here are languages used in repositories under my accou
 
 and here are languages I'm used to code with for last month according to \[wakatime report]\(https\://wakatime.com/@67b0932f-7fe8-4117-a47a-87e37d1b0d05)
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="24" height="24" alt="TypeScript" title="TypeScript" />         | 49.06% |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="24" height="24" alt="TypeScript" title="TypeScript" />         | 55.65% |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" width="24" height="24" alt="Markdown" title="Markdown" />                    | 22.38% |
-| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Other" title="Other" />                                        | 12.54% |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="24" height="24" alt="JavaScript" title="JavaScript" /> | 4.70%  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="24" height="24" alt="HTML" title="HTML" />                  | 3.76%  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" width="24" height="24" alt="JSON" title="JSON" />                         | 2.63%  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" width="24" height="24" alt="Bash" title="Bash" />                        | 1.36%  |
-| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Text" title="Text" />                                          | 0.87%  |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24" height="24" alt="C#" title="C#" />                        | 0.79%  |
-| <img src="https://cdn.worldvectorlogo.com/logos/swift-15.svg" width="24" height="24" alt="Swift" title="Swift" />                                             | 0.77%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" width="24" height="24" alt="Markdown" title="Markdown" />                    | 19.60% |
+| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Other" title="Other" />                                        | 9.89%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="24" height="24" alt="JavaScript" title="JavaScript" /> | 6.96%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" width="24" height="24" alt="JSON" title="JSON" />                         | 3.10%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" width="24" height="24" alt="Bash" title="Bash" />                        | 1.57%  |
+| <img src="https://www.svgrepo.com/show/149905/txt-file-symbol.svg" width="24" height="24" alt="Text" title="Text" />                                          | 1.02%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="24" height="24" alt="HTML" title="HTML" />                  | 0.95%  |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="24" height="24" alt="PowerShell" title="PowerShell" />            | 0.56%  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/YAML_logo_in_SVG_format.svg" width="24" height="24" alt="YAML" title="YAML" />                  | 0.12%  |
 
 I'm coding in
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="24" height="24" alt="VS Code" title="VS Code" /> | 99.40% |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="24" height="24" alt="VS Code" title="VS Code" /> | 99.97% |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg" width="24" height="24" alt="Rider" title="Rider" />      | 0.60%  |
+| <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/Rider_icon.svg" width="24" height="24" alt="Rider" title="Rider" />      | 0.03%  |
 
 I'm coding on
 
