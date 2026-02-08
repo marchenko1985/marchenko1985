@@ -96,10 +96,10 @@
   "stats": {
     "contributionsCollection": {
       "totalCommitContributions": 175,
-      "restrictedContributionsCount": 1559
+      "restrictedContributionsCount": 1508
     },
     "repositoriesContributedTo": {
-      "totalCount": 6
+      "totalCount": 5
     },
     "pullRequests": {
       "totalCount": 126
@@ -108,7 +108,7 @@
       "totalCount": 133
     },
     "followers": {
-      "totalCount": 89
+      "totalCount": 91
     },
     "repositories": {
       "totalCount": 218,
@@ -140,7 +140,7 @@
         },
         {
           "stargazers": {
-            "totalCount": 8
+            "totalCount": 7
           }
         },
         {
