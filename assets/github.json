@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 174,
-      "restrictedContributionsCount": 1451
+      "totalCommitContributions": 209,
+      "restrictedContributionsCount": 1415
     },
     "repositoriesContributedTo": {
       "totalCount": 5
@@ -111,7 +111,7 @@
       "totalCount": 90
     },
     "repositories": {
-      "totalCount": 218,
+      "totalCount": 220,
       "nodes": [
         {
           "stargazers": {
@@ -1274,6 +1274,48 @@
             "edges": [
               {
                 "node": {
+                  "name": "TypeScript"
+                }
+              },
+              {
+                "node": {
+                  "name": "CSS"
+                }
+              },
+              {
+                "node": {
+                  "name": "HTML"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript"
+                }
+              },
+              {
+                "node": {
+                  "name": "CSS"
+                }
+              },
+              {
+                "node": {
+                  "name": "HTML"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
                   "name": "HTML"
                 }
               }
@@ -1374,12 +1416,12 @@
               },
               {
                 "node": {
-                  "name": "HTML"
+                  "name": "CSS"
                 }
               },
               {
                 "node": {
-                  "name": "CSS"
+                  "name": "HTML"
                 }
               }
             ]
@@ -2492,48 +2534,6 @@
               {
                 "node": {
                   "name": "FreeMarker"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "HTML"
-                }
-              },
-              {
-                "node": {
-                  "name": "TypeScript"
-                }
-              },
-              {
-                "node": {
-                  "name": "JavaScript"
-                }
-              },
-              {
-                "node": {
-                  "name": "CSS"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "JavaScript"
-                }
-              },
-              {
-                "node": {
-                  "name": "HTML"
                 }
               }
             ]
