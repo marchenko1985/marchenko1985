@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 209,
-      "restrictedContributionsCount": 1415
+      "totalCommitContributions": 248,
+      "restrictedContributionsCount": 1382
     },
     "repositoriesContributedTo": {
       "totalCount": 5
@@ -111,7 +111,7 @@
       "totalCount": 90
     },
     "repositories": {
-      "totalCount": 220,
+      "totalCount": 221,
       "nodes": [
         {
           "stargazers": {
@@ -340,7 +340,7 @@
         },
         {
           "stargazers": {
-            "totalCount": 0
+            "totalCount": 1
           }
         },
         {
@@ -878,6 +878,27 @@
         {
           "languages": {
             "edges": []
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "C#"
+                }
+              },
+              {
+                "node": {
+                  "name": "HTML"
+                }
+              },
+              {
+                "node": {
+                  "name": "Shell"
+                }
+              }
+            ]
           }
         },
         {
@@ -2498,42 +2519,6 @@
               {
                 "node": {
                   "name": "HTML"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Java"
-                }
-              },
-              {
-                "node": {
-                  "name": "HTML"
-                }
-              },
-              {
-                "node": {
-                  "name": "Kotlin"
-                }
-              },
-              {
-                "node": {
-                  "name": "CSS"
-                }
-              },
-              {
-                "node": {
-                  "name": "Shell"
-                }
-              },
-              {
-                "node": {
-                  "name": "FreeMarker"
                 }
               }
             ]
