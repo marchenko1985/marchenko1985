@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 248,
-      "restrictedContributionsCount": 1382
+      "totalCommitContributions": 257,
+      "restrictedContributionsCount": 1336
     },
     "repositoriesContributedTo": {
       "totalCount": 5
@@ -108,7 +108,7 @@
       "totalCount": 133
     },
     "followers": {
-      "totalCount": 90
+      "totalCount": 91
     },
     "repositories": {
       "totalCount": 221,
@@ -1285,6 +1285,17 @@
               {
                 "node": {
                   "name": "PHP"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Swift"
                 }
               }
             ]
@@ -2503,22 +2514,6 @@
               {
                 "node": {
                   "name": "Java"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "JavaScript"
-                }
-              },
-              {
-                "node": {
-                  "name": "HTML"
                 }
               }
             ]
