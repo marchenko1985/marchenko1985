@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 253,
-      "restrictedContributionsCount": 1295
+      "totalCommitContributions": 258,
+      "restrictedContributionsCount": 1264
     },
     "repositoriesContributedTo": {
       "totalCount": 5
@@ -1332,12 +1332,12 @@
               },
               {
                 "node": {
-                  "name": "CSS"
+                  "name": "HTML"
                 }
               },
               {
                 "node": {
-                  "name": "HTML"
+                  "name": "CSS"
                 }
               }
             ]
