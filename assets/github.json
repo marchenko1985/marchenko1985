@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 252,
-      "restrictedContributionsCount": 1405
+      "totalCommitContributions": 272,
+      "restrictedContributionsCount": 1584
     },
     "repositoriesContributedTo": {
       "totalCount": 4
@@ -111,7 +111,7 @@
       "totalCount": 92
     },
     "repositories": {
-      "totalCount": 221,
+      "totalCount": 222,
       "nodes": [
         {
           "stargazers": {
@@ -1285,6 +1285,27 @@
               {
                 "node": {
                   "name": "PHP"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
+                  "name": "TypeScript"
+                }
+              },
+              {
+                "node": {
+                  "name": "CSS"
+                }
+              },
+              {
+                "node": {
+                  "name": "HTML"
                 }
               }
             ]
@@ -2503,17 +2524,6 @@
               {
                 "node": {
                   "name": "Dockerfile"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Java"
                 }
               }
             ]
