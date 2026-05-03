@@ -84,10 +84,10 @@
       },
       {
         "node": {
-          "title": "github app: generate jwt with powershell",
-          "url": "https://github.com/github/docs/pull/30679",
+          "title": "dependabot",
+          "url": "https://github.com/rabotaua/actions-version/pull/270",
           "repository": {
-            "nameWithOwner": "github/docs"
+            "nameWithOwner": "rabotaua/actions-version"
           }
         }
       }
@@ -95,8 +95,8 @@
   },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 277,
-      "restrictedContributionsCount": 1557
+      "totalCommitContributions": 291,
+      "restrictedContributionsCount": 1979
     },
     "repositoriesContributedTo": {
       "totalCount": 4
@@ -108,10 +108,10 @@
       "totalCount": 133
     },
     "followers": {
-      "totalCount": 92
+      "totalCount": 93
     },
     "repositories": {
-      "totalCount": 223,
+      "totalCount": 224,
       "nodes": [
         {
           "stargazers": {
@@ -345,7 +345,7 @@
         },
         {
           "stargazers": {
-            "totalCount": 0
+            "totalCount": 1
           }
         },
         {
@@ -885,6 +885,17 @@
             "edges": [
               {
                 "node": {
+                  "name": "Swift"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
                   "name": "C#"
                 }
               },
@@ -1295,6 +1306,22 @@
             "edges": [
               {
                 "node": {
+                  "name": "Go"
+                }
+              },
+              {
+                "node": {
+                  "name": "Dockerfile"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "languages": {
+            "edges": [
+              {
+                "node": {
                   "name": "JavaScript"
                 }
               }
@@ -1317,17 +1344,6 @@
               {
                 "node": {
                   "name": "HTML"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Swift"
                 }
               }
             ]
@@ -2483,27 +2499,6 @@
               {
                 "node": {
                   "name": "JavaScript"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "languages": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Java"
-                }
-              },
-              {
-                "node": {
-                  "name": "HTML"
-                }
-              },
-              {
-                "node": {
-                  "name": "CSS"
                 }
               }
             ]
