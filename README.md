@@ -5,7 +5,6 @@
 | rabotaua/actions-graphql  | [switch to new mavis tool](https://github.com/rabotaua/actions-graphql/pull/22)                              |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | APIs-guru/graphql-voyager | [fix for docker build on macos](https://github.com/APIs-guru/graphql-voyager/pull/439)                       |
-| rabotaua/Rabota.SqlClient | [regex](https://github.com/rabotaua/Rabota.SqlClient/pull/2)                                                 |
 | rabotaua/actions-version  | [Eslint9](https://github.com/rabotaua/actions-version/pull/329)                                              |
 | rabotaua/actions-graphql  | [steps](https://github.com/rabotaua/actions-graphql/pull/18)                                                 |
 | rabotaua/actions-graphql  | [path](https://github.com/rabotaua/actions-graphql/pull/17)                                                  |
@@ -13,12 +12,13 @@
 | rabotaua/actions-graphql  | [downgrade node to v16 because of apollo service check](https://github.com/rabotaua/actions-graphql/pull/15) |
 | rabotaua/actions-graphql  | [bump](https://github.com/rabotaua/actions-graphql/pull/14)                                                  |
 | rabotaua/actions-version  | [dependabot](https://github.com/rabotaua/actions-version/pull/270)                                           |
+| rabotaua/actions-version  | [outputs](https://github.com/rabotaua/actions-version/pull/247)                                              |
 
 ### Some github stats
 
 | <img src="assets/icons/pullrequest.svg" width="24" height="24" alt="requests" title="requests" /> | <img src="assets/icons/commit.svg" width="24" height="24" alt="commits" title="commits" /> | <img src="assets/icons/issue.svg" width="24" height="24" alt="issues" title="issues" /> | <img src="assets/icons/star.svg" width="24" height="24" alt="stars" title="stars" /> | <img src="assets/icons/merge.svg" width="24" height="24" alt="contributions" title="contributions" /> |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
-| 5                                                                                                 | 318                                                                                        | 133                                                                                     | 94                                                                                   | 5                                                                                                     |
+| 5                                                                                                 | 318                                                                                        | 133                                                                                     | 93                                                                                   | 5                                                                                                     |
 
 According to github stats here are languages used in repositories under my account
 
