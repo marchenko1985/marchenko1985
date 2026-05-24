@@ -21,15 +21,6 @@
       },
       {
         "node": {
-          "title": "regex",
-          "url": "https://github.com/rabotaua/Rabota.SqlClient/pull/2",
-          "repository": {
-            "nameWithOwner": "rabotaua/Rabota.SqlClient"
-          }
-        }
-      },
-      {
-        "node": {
           "title": "Eslint9",
           "url": "https://github.com/rabotaua/actions-version/pull/329",
           "repository": {
@@ -90,13 +81,22 @@
             "nameWithOwner": "rabotaua/actions-version"
           }
         }
+      },
+      {
+        "node": {
+          "title": "outputs",
+          "url": "https://github.com/rabotaua/actions-version/pull/247",
+          "repository": {
+            "nameWithOwner": "rabotaua/actions-version"
+          }
+        }
       }
     ]
   },
   "stats": {
     "contributionsCollection": {
       "totalCommitContributions": 318,
-      "restrictedContributionsCount": 2261
+      "restrictedContributionsCount": 2492
     },
     "repositoriesContributedTo": {
       "totalCount": 5
@@ -108,7 +108,7 @@
       "totalCount": 133
     },
     "followers": {
-      "totalCount": 94
+      "totalCount": 93
     },
     "repositories": {
       "totalCount": 224,
