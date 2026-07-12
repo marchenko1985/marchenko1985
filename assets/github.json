@@ -75,17 +75,17 @@
       },
       {
         "node": {
-          "title": "dependabot",
-          "url": "https://github.com/rabotaua/actions-version/pull/270",
+          "title": "github app: generate jwt with powershell",
+          "url": "https://github.com/github/docs/pull/30679",
           "repository": {
-            "nameWithOwner": "rabotaua/actions-version"
+            "nameWithOwner": "github/docs"
           }
         }
       },
       {
         "node": {
-          "title": "outputs",
-          "url": "https://github.com/rabotaua/actions-version/pull/247",
+          "title": "dependabot",
+          "url": "https://github.com/rabotaua/actions-version/pull/270",
           "repository": {
             "nameWithOwner": "rabotaua/actions-version"
           }
@@ -96,7 +96,7 @@
   "stats": {
     "contributionsCollection": {
       "totalCommitContributions": 257,
-      "restrictedContributionsCount": 2818
+      "restrictedContributionsCount": 2872
     },
     "repositoriesContributedTo": {
       "totalCount": 4
@@ -108,7 +108,7 @@
       "totalCount": 133
     },
     "followers": {
-      "totalCount": 91
+      "totalCount": 90
     },
     "repositories": {
       "totalCount": 224,
