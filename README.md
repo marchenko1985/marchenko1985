@@ -11,14 +11,14 @@
 | rabotaua/actions-graphql  | [rover](https://github.com/rabotaua/actions-graphql/pull/16)                                                 |
 | rabotaua/actions-graphql  | [downgrade node to v16 because of apollo service check](https://github.com/rabotaua/actions-graphql/pull/15) |
 | rabotaua/actions-graphql  | [bump](https://github.com/rabotaua/actions-graphql/pull/14)                                                  |
+| github/docs               | [github app: generate jwt with powershell](https://github.com/github/docs/pull/30679)                        |
 | rabotaua/actions-version  | [dependabot](https://github.com/rabotaua/actions-version/pull/270)                                           |
-| rabotaua/actions-version  | [outputs](https://github.com/rabotaua/actions-version/pull/247)                                              |
 
 ### Some github stats
 
 | <img src="assets/icons/pullrequest.svg" width="24" height="24" alt="requests" title="requests" /> | <img src="assets/icons/commit.svg" width="24" height="24" alt="commits" title="commits" /> | <img src="assets/icons/issue.svg" width="24" height="24" alt="issues" title="issues" /> | <img src="assets/icons/star.svg" width="24" height="24" alt="stars" title="stars" /> | <img src="assets/icons/merge.svg" width="24" height="24" alt="contributions" title="contributions" /> |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
-| 4                                                                                                 | 257                                                                                        | 133                                                                                     | 91                                                                                   | 4                                                                                                     |
+| 4                                                                                                 | 257                                                                                        | 133                                                                                     | 90                                                                                   | 4                                                                                                     |
 
 According to github stats here are languages used in repositories under my account
 
