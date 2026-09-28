@@ -1,102 +1,11 @@
 {
-  "contributions": {
-    "edges": [
-      {
-        "node": {
-          "title": "switch to new mavis tool",
-          "url": "https://github.com/rabotaua/actions-graphql/pull/22",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-graphql"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "fix for docker build on macos",
-          "url": "https://github.com/APIs-guru/graphql-voyager/pull/439",
-          "repository": {
-            "nameWithOwner": "APIs-guru/graphql-voyager"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "Eslint9",
-          "url": "https://github.com/rabotaua/actions-version/pull/329",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-version"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "steps",
-          "url": "https://github.com/rabotaua/actions-graphql/pull/18",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-graphql"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "path",
-          "url": "https://github.com/rabotaua/actions-graphql/pull/17",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-graphql"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "rover",
-          "url": "https://github.com/rabotaua/actions-graphql/pull/16",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-graphql"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "downgrade node to v16 because of apollo service check",
-          "url": "https://github.com/rabotaua/actions-graphql/pull/15",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-graphql"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "bump",
-          "url": "https://github.com/rabotaua/actions-graphql/pull/14",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-graphql"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "github app: generate jwt with powershell",
-          "url": "https://github.com/github/docs/pull/30679",
-          "repository": {
-            "nameWithOwner": "github/docs"
-          }
-        }
-      },
-      {
-        "node": {
-          "title": "dependabot",
-          "url": "https://github.com/rabotaua/actions-version/pull/270",
-          "repository": {
-            "nameWithOwner": "rabotaua/actions-version"
-          }
-        }
-      }
-    ]
-  },
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 278,
-      "restrictedContributionsCount": 4197
+      "totalCommitContributions": 276,
+      "restrictedContributionsCount": 4350,
+      "contributionCalendar": {
+        "totalContributions": 4634
+      }
     },
     "repositoriesContributedTo": {
       "totalCount": 3
@@ -113,106 +22,306 @@
     "repositories": {
       "totalCount": 224,
       "nodes": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        {
+          "stargazerCount": 19
+        },
+        {
+          "stargazerCount": 11
+        },
+        {
+          "stargazerCount": 10
+        },
+        {
+          "stargazerCount": 9
+        },
+        {
+          "stargazerCount": 9
+        },
+        {
+          "stargazerCount": 7
+        },
+        {
+          "stargazerCount": 7
+        },
+        {
+          "stargazerCount": 5
+        },
+        {
+          "stargazerCount": 4
+        },
+        {
+          "stargazerCount": 3
+        },
+        {
+          "stargazerCount": 3
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 2
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 1
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        },
+        {
+          "stargazerCount": 0
+        }
       ]
     }
   },
