@@ -16,7 +16,7 @@ const table = (items) => ({
   ],
 });
 
-const top = (entries, kind) => entries.sort((a, b) => b.percent - a.percent).slice(0, 10).map(({name, percent}) => [icon(kind, name), percent.toFixed(2) + "%"]);
+const top = (entries, kind) => entries.map(({name, percent}) => ({name, percent: Math.round(percent)})).filter(({percent}) => percent > 0).sort((a, b) => b.percent - a.percent).slice(0, 10).map(({name, percent}) => [icon(kind, name), percent + "%"]);
 
 const stat = (name, title) => `<img src="assets/icons/${name}.svg" width="24" height="24" alt="${title}" title="${title}" />`;
 
@@ -33,13 +33,13 @@ const md = remark().use(remarkGfm).use(remarkStringify).stringify({
       [stat("merge", "repositories contributed to"), github.stats.repositoriesContributedTo.totalCount],
     ]),
     { type: "paragraph", children: [{ type: "text", value: "According to github stats here are languages used in repositories under my account" }] },
-    table(Object.entries(github.languages.repositories.nodes.flatMap(node => node.languages.edges.map(edge => edge.node.name)).reduce((acc, x) => Object.assign(acc, {[x]: (acc[x] || 0) + 1}), {})).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([language, count]) => [icon("languages", language), parseFloat((count/github.languages.repositories.nodes.length*100).toFixed(2)) + "%"])),
+    table(Object.entries(github.languages.repositories.nodes.flatMap(node => node.languages.edges.map(edge => edge.node.name)).reduce((acc, x) => Object.assign(acc, {[x]: (acc[x] || 0) + 1}), {})).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([language, count]) => [icon("languages", language), Math.round(count/github.languages.repositories.nodes.length*100) + "%"])),
     { type: "paragraph", children: [
       { type: "text", value: "and here are languages I'm used to code with for last month according to " },
       { type: "link", url: "https://wakatime.com/@67b0932f-7fe8-4117-a47a-87e37d1b0d05", children: [{ type: "text", value: "wakatime report" }] },
     ] },
     table(top(wakatime.languages, "languages")),
-    { type: "paragraph", children: [{ type: "text", value: "I'm coding in" }] },
+    { type: "paragraph", children: [{ type: "text", value: "Apps I spend my time in" }] },
     table(top(wakatime.editors, "editors")),
     { type: "paragraph", children: [{ type: "text", value: "I'm coding on" }] },
     table(top(wakatime.operating_systems, "platforms")),
