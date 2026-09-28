@@ -8,6 +8,7 @@ permissions:
 jobs:
   wakatime:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - name: git pull
         uses: actions/checkout@v6
@@ -17,36 +18,33 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: |
           $url = "https://wakatime.com/api/v1/users/current/stats/last_30_days?api_key=$($env:WAKATIME_API_KEY)"
-          # init request
-          $data = Invoke-RestMethod $url | Select-Object -ExpandProperty data
 
-          # expecting response with status pending
-          if ($data.status -ne "ok") {
-            Write-Host "first attempt response status was $($data.status)"
-            Write-Output "::group::response"
-            $data | ConvertTo-Json -Depth 100 | Write-Output
-            Write-Output "::endgroup::"
-            Start-Sleep -Seconds 5
-            $data = Invoke-RestMethod $url | Select-Object -ExpandProperty data
-          }
+          # wakatime computes stats lazily: the first request kicks off a background refresh and
+          # responds 202 with status pending_update/updating and a growing percent_calculated,
+          # so keep polling until the report is complete
+          $deadline = (Get-Date).AddMinutes(30)
+          $attempt = 0
+          while ($true) {
+            $attempt++
+            try {
+              $data = Invoke-RestMethod $url | Select-Object -ExpandProperty data
+              Write-Host "attempt $($attempt): status=$($data.status) is_up_to_date=$($data.is_up_to_date) percent_calculated=$($data.percent_calculated) is_stuck=$($data.is_stuck)"
+              if ($data.status -eq "ok" -and $data.is_up_to_date) { break }
+            } catch {
+              # transient network/5xx errors - retry as well
+              Write-Host "attempt $($attempt): request failed: $($_.Exception.Message)"
+            }
 
-          # just in case one more attempt
-          if ($data.status -ne "ok") {
-            Write-Host "second attempt response status was $($data.status)"
-            Write-Output "::group::response"
-            $data | ConvertTo-Json -Depth 100 | Write-Output
-            Write-Output "::endgroup::"
-            Start-Sleep -Seconds 5
-            $data = Invoke-RestMethod $url | Select-Object -ExpandProperty data
-          }
-
-          # if still not ok - exit
-          if ($data.status -ne "ok") {
-            Write-Output "wakatime data is not ready"
-            Write-Output "::group::response"
-            $data | ConvertTo-Json -Depth 100 | Write-Output
-            Write-Output "::endgroup::"
-            exit 1
+            if ((Get-Date) -gt $deadline) {
+              Write-Output "wakatime data is not ready after $attempt attempts"
+              if ($data) {
+                Write-Output "::group::response"
+                $data | ConvertTo-Json -Depth 100 | Write-Output
+                Write-Output "::endgroup::"
+              }
+              exit 1
+            }
+            Start-Sleep -Seconds 30
           }
 
           $data | ConvertTo-Json -Depth 100 | Out-File assets/wakatime.json
