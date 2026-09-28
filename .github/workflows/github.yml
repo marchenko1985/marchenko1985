@@ -6,6 +6,8 @@ on:
 permissions:
   contents: write
 env:
+  # built-in actions token, never expires; it only sees public data, so pull requests and contributed
+  # repositories count public ones only (contributionCalendar still includes private contributions)
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   github:
@@ -19,27 +21,13 @@ jobs:
         run: |
           $query = @"
           {
-            contributions: search(
-              query: "is:merged is:pr is:public archived:false author:marchenko1985"
-              type: ISSUE
-              first: 10
-            ) {
-              edges {
-                node {
-                  ... on PullRequest {
-                    title
-                    url
-                    repository {
-                      nameWithOwner
-                    }
-                  }
-                }
-              }
-            }
             stats: user(login: "marchenko1985") {
               contributionsCollection {
                 totalCommitContributions
                 restrictedContributionsCount
+                contributionCalendar {
+                  totalContributions
+                }
               }
               repositoriesContributedTo(
                 first: 1
@@ -59,13 +47,12 @@ jobs:
               repositories(
                 first: 100
                 ownerAffiliations: OWNER
+                privacy: PUBLIC
                 orderBy: {direction: DESC, field: STARGAZERS}
               ) {
                 totalCount
                 nodes {
-                  stargazers {
-                    totalCount
-                  }
+                  stargazerCount
                 }
               }
             }

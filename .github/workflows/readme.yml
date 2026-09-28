@@ -28,5 +28,5 @@ jobs:
       - name: git commit
         run: |
           git add .
-          git commit -m wakatime
+          git commit -m readme
           git push
