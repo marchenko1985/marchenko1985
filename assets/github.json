@@ -1,10 +1,10 @@
 {
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 277,
-      "restrictedContributionsCount": 4663,
+      "totalCommitContributions": 251,
+      "restrictedContributionsCount": 5256,
       "contributionCalendar": {
-        "totalContributions": 4948
+        "totalContributions": 5515
       }
     },
     "repositoriesContributedTo": {
