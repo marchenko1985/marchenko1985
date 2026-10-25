@@ -1,14 +1,14 @@
 {
   "stats": {
     "contributionsCollection": {
-      "totalCommitContributions": 229,
-      "restrictedContributionsCount": 5413,
+      "totalCommitContributions": 224,
+      "restrictedContributionsCount": 5602,
       "contributionCalendar": {
-        "totalContributions": 5651
+        "totalContributions": 5835
       }
     },
     "repositoriesContributedTo": {
-      "totalCount": 4
+      "totalCount": 3
     },
     "pullRequests": {
       "totalCount": 126
@@ -17,7 +17,7 @@
       "totalCount": 134
     },
     "followers": {
-      "totalCount": 93
+      "totalCount": 92
     },
     "repositories": {
       "totalCount": 224,
