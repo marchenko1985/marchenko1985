@@ -15,9 +15,11 @@ jobs:
       - name: update assets/wakatime.json
         shell: pwsh
         env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # OAuth access token from https://wakatime.com/oauth - since 2026-11-01 api keys only work for editor plugins
+          WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}
         run: |
-          $url = "https://wakatime.com/api/v1/users/current/stats/last_30_days?api_key=$($env:WAKATIME_API_KEY)"
+          $url = "https://wakatime.com/api/v1/users/current/stats/last_30_days"
+          $headers = @{ Authorization = "Bearer $($env:WAKATIME_TOKEN)" }
 
           # wakatime computes stats lazily: the first request kicks off a background refresh and
           # responds 202 with status pending_update/updating and a growing percent_calculated,
@@ -27,10 +29,16 @@ jobs:
           while ($true) {
             $attempt++
             try {
-              $data = Invoke-RestMethod $url | Select-Object -ExpandProperty data
+              $data = Invoke-RestMethod $url -Headers $headers | Select-Object -ExpandProperty data
               Write-Host "attempt $($attempt): status=$($data.status) is_up_to_date=$($data.is_up_to_date) percent_calculated=$($data.percent_calculated) is_stuck=$($data.is_stuck)"
               if ($data.status -eq "ok" -and $data.is_up_to_date) { break }
             } catch {
+              # a bad or expired token will not fix itself - fail now instead of polling for 30 minutes
+              $code = [int]$_.Exception.Response.StatusCode
+              if ($code -in 401, 403) {
+                Write-Output "::error::wakatime rejected the token ($code) - create a new one at https://wakatime.com/oauth and update the WAKATIME_TOKEN secret"
+                exit 1
+              }
               # transient network/5xx errors - retry as well
               Write-Host "attempt $($attempt): request failed: $($_.Exception.Message)"
             }
@@ -59,4 +67,6 @@ jobs:
         run: |
           git add .
           git commit -m wakatime
+          # the github workflow runs on the same schedule and may have pushed in the meantime
+          git pull --rebase
           git push
