@@ -2,9 +2,9 @@
   "stats": {
     "contributionsCollection": {
       "totalCommitContributions": 224,
-      "restrictedContributionsCount": 6017,
+      "restrictedContributionsCount": 5804,
       "contributionCalendar": {
-        "totalContributions": 6250
+        "totalContributions": 6037
       }
     },
     "repositoriesContributedTo": {
